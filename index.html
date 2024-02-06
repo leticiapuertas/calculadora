@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="content">
+            <input type="text" name="televisor" id="display">
+            <div  id="numeros">
+                <button class="teclado operacoes" value="/">/</button>
+                <button class="teclado operacoes" value="-">-</button>
+                
+                <button class="teclado numeros" value="1">1</button>
+                <button class="teclado numeros" value="2">2</button>
+                <button class="teclado numeros" value="3">3</button>
+                <button class="teclado numeros" value="4">4</button>
+                <button class="teclado numeros" value="5">5</button>
+                <button class="teclado numeros" value="6">6</button>
+                <button class="teclado numeros" value="7">7</button>
+                <button class="teclado numeros" value="8">8</button>
+                <button class="teclado numeros" value="9">9</button>
+                <button class="teclado numeros" value="0">0</button>
+                <button class="teclado operacoes" value="X">X</button>
+                <button class="teclado operacoes" value="+">+</button>
+                <button class="teclado limpar" id="clear">CE</button>
+                <button class="teclado" id="igual">=</button>
+            </div>
+        </div>
+        <div id="historico">
+            <h2>Historico de resultados</h2>
+            <div id="resultados"></div>
+        </div>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
